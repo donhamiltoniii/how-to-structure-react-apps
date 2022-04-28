@@ -1,0 +1,20 @@
+.todo-item {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.todo-item__completed {
+  margin-right: 1rem;
+}
+
+.todo-item__description {
+  font-style: italic;
+}
+
+.todo-item__title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
