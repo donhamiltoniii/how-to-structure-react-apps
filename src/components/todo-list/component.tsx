@@ -1,5 +1,5 @@
 import { TodoItem } from "./todo-item";
-import { Todo } from "../../types/todo";
+import { Todo } from "types/todo";
 
 import "./styles.css";
 
@@ -11,7 +11,7 @@ export const TodoList = ({ todos }: TodoListProps) => {
   return (
     <ul className="todo-list" data-testid="todo-list-container">
       {todos.map((todo: Todo) => (
-        <TodoItem todo={todo} />
+        <TodoItem key={todo.title} todo={todo} />
       ))}
     </ul>
   );

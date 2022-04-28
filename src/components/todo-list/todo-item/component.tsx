@@ -11,8 +11,8 @@ export const TodoItem = ({ todo }: TodoItemProps) => {
   return (
     <li className="todo-item" data-testid="todo-item-container">
       <input
-        checked={completed}
         className="todo-item__completed"
+        defaultChecked
         name="completed"
         type="checkbox"
       />

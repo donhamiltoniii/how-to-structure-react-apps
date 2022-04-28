@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 
 import { render, screen } from "@testing-library/react";
-import { Todo } from "@types/todo";
+import { Todo } from "../../types/todo";
 
 import { TodoList } from "./component";
 

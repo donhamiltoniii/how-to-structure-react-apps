@@ -1,3 +1,4 @@
+// Example hook: not used in example
 import { useEffect, useState } from "react";
 
 export const useWindowSize = () => {
